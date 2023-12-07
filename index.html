@@ -1,12 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bryant Jordan/title>
+    <title>tanyapepsodent.com</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
-<body>
-    <h1>Bryant Jordan's Website</h1>
-    <h1>Haloooooo</h1>
+
+<body class="font-sans h-screen bg-gray-600">
+
+    <header class="header fixed w-full bg-white shadow-lg pr-4 sm:pr-12 pl-4 sm:pl-12 z-50">
+        <div class="signup_hubungikami flex justify-end ">
+            <div class="signup bg-danger rounded-xl text-white text-center">
+                <p style="font-size: 12px;" class="text-xs sm:text-3xs items-center pt-1 pb-0 pr-2 sm:pr-4 pl-2 sm:pl-4">Sign Up</p>
+            </div>
+            <div class="HubungiKami flex bg-light rounded-tr-xl rounded-br-xl gap-2 pr-2 sm:pr-4 pl-2 sm:pl-4 pt-1 pb-0">
+                <p style="font-size: 12px;" class="text-xs sm:text-sm">Hubungi Kami</p>
+                <img class="kacapembesar w-3 sm:w-4 h-4 sm:h-5" src="icons8-magnifying-glass-50.png">
+            </div>
+        </div>
+
+        <div class="flex justify-between pt-2 pb-1">
+            <div class="fotopepsodent">
+                <img class="w-24 sm:w-40" src="pepsodent.svg">
+            </div>
+            <div class="navbar">
+                <div class="navbarkanan flex gap-4 sm:gap-12 text-primary font-semibold text-xs sm:text-base">
+                    <p class="home"><a href="pepsodent_tailwind.html" target="_blank">Home</a></p>
+                    <p><a href="pepsodent_biodata_tailwind.html" target="_blank">Biodata</a></p>
+                    <p><a href="pepsodent_contact_tailwind.html" target="_blank">Contact us</a></p>
+                    <p><a href="pepsodent_bebas._tailwind.html" target="_blank">Pepsodent Mid</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="konsultasigratis">
+            <img class="samping fixed w-8 sm:w-12 h-8 sm:h-12 right-2 sm:right-4 top-36 sm:top-44 border-2 border-solid border-primary bg-primary rounded-tl-2xl rounded-bl-2xl p-1 sm:p-2"
+                src="chitchat1.png">
+        </div>
+    </header>
+
+    <main class="p-8 pt-12" style="padding-top: 90px; padding-bottom: 100px;">
+
+        <div class="flex justify-center mt-8">
+            <button onclick="showVerse1()" class="btn btn-primary mr-4">Verse 1</button>
+            <button onclick="showVerse2()" class="btn btn-primary">Verse 2</button>
+        </div>
+
+        <div id="verse1" class="hidden mt-8 text-center">
+            <h2 class="text-2xl font-semibold mb-4">Verse 1</h2>
+            <p class="text-lg bg-primary text-white rounded-xl pl-4 pr-4 pt-5 pb-5" style="margin-left: 50px; margin-right: 50px;">
+                Tuhan pimpin s'panjang jalan<br>
+                Amat senanglah hatiku<br>
+                Dan hilanglah ketakutan<br>
+                Kar'na Tuhan pimpin aku<br>
+                Tuhan pimpin, Tuhan pimpin<br>
+                Tangan Tuhan pimpin aku<br>
+                Dengan setia kuturut Dia<br>
+                Kar'na Tuhan pimpin aku<br>
+            </p>
+        </div>
+
+        <div id="verse2" class="hidden mt-8 text-center">
+            <h2 class="text-2xl font-semibold mb-4">Verse 2</h2>
+            <p class="text-lg bg-primary text-white rounded-xl pl-4 pr-4 pt-5 pb-5" style="margin-left: 50px; margin-right: 50px;">
+                Pada waktu kesusahan<br>
+                Atau waktu sukacita<br>
+                Aku tetap rasa aman<br>
+                Kar'na Tuhan yang menjaga.<br>
+                Tuhan pimpin, Tuhan pimpin<br>
+                Tangan Tuhan pimpin aku<br>
+                Dengan setia kuturut Dia<br>
+                Kar'na Tuhan pimpin aku<br>
+            </p>
+        </div>
+
+    </main>
+
+    <script>
+        function showVerse1() {
+            document.getElementById('verse1').style.display = 'block';
+            document.getElementById('verse2').style.display = 'none';
+        }
+
+        function showVerse2() {
+            document.getElementById('verse1').style.display = 'none';
+            document.getElementById('verse2').style.display = 'block';
+        }
+    </script>
+
+    <footer class="footer1 flex flex-wrap justify-between p-4 sm:p-6 bg-indigo-900 text-white" style="background-color: #041679;">
+        <div class="logofoooter mb-4 sm:mb-0">
+            <img class="w-24 sm:w-36" src="pepsodentputih.svg">
+        </div>
+        <div class="lokasi mb-4 sm:mb-0">
+            <h3 class="text-white font-bold">Lokasi</h3>
+            <div class="indonesiadrop flex items-center">
+                <p class="pilihannegara text-white text-xs sm:text-sm">Indonesia</p>
+                <img class="h-4 sm:h-6 ml-1 sm:ml-2" src="whitedropdown.png">
+            </div>
+        </div>
+        <div class="tetapberhubungan mb-4 sm:mb-0">
+            <div class="h3berhubungan">
+                <h3 class="font-bold mb-2 sm:mb-4">Tetap berhubungan</h3>
+            </div>
+            <div class="logo flex items-center">
+                <img class="h-3 sm:h-5 mr-1 sm:mr-2" src="facebookcircle.png">
+                <img class="h-3 sm:h-5 mr-1 sm:mr-2" src="youtubecircle1.png">
+                <img class="h-3 sm:h-5" src="instagramcircle.png">
+            </div>
+        </div>
+        <div class="layanan mb-4 sm:mb-0">
+            <h3 class="font-bold mb-2 sm:mb-4">Layanan Konsumen</h3>
+            <div class="penjelasanlayanan">
+                <p class="py-1 sm:py-2">Hubungi Kami</p>
+                <p class="py-1 sm:py-2">Sign Up</p>
+                <p class="py-1 sm:py-2">Tanya Jawab</p>
+                <p class="py-1 sm:py-2">Peta situs</p>
+            </div>
+        </div>
+        <div class="legal">
+            <h3 class="font-bold mb-2 sm:mb-4">Legal</h3>
+            <div class="penjelasanlegal">
+                <p class="py-1 sm:py-2">Pemberitahuan Cookie</p>
+                <p class="py-1 sm:py-2">Pemberitahuan Privasi</p>
+                <p class="py-1 sm:py-2">Syarat Penggunaan</p>
+                <p class="py-1 sm:py-2">Aksesibilitas</p>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="bg-white footer2 text-xs sm:text-sm text-gray-500 p-4 sm:p-6">
+        <div class="terakhir1 flex flex-col sm:flex-row justify-between items-center">
+            <p class="py-2 sm:pl-6">© 2023 Unilever. All rights reserved.<br><br>
+                Website ini diarahkan hanya ke konsumen, produk-produk, dan layanan-layanan Unilever Indonesia.<br>
+                Website ini tidak diarahkan untuk konsumen di luar Indonesia. <br>
+            </p>
+            <div class="flex gap-4" style="padding-bottom: 70px;">
+                <p><a class="text-primary" href="https://fti.unai.edu" target="_blank">FTI UNAI</a></p>
+                <p><a class="text-primary" href="https://unai.edu" target="_blank">UNAI Website</a></p>
+            </div>
+            <img class="w-12 sm:w-14 ml-auto" style="width: 80px;" src="unilever.svg">
+        </div>
+    </footer>
+
 </body>
+
 </html>
