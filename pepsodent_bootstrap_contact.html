@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tanyapepsodent.com</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="pepsodent_style.css">
+    <style>
+        /* Add custom styles for the sticky navbar */
+        .sticky-top {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        body {
+            background: linear-gradient(to right, #fuchsia, #800080, #0000ff);
+            color: white;
+        }
+
+        .kartubiodata {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+        @media (min-width: 640px) {
+            .kartubiodata {
+                max-width: 28rem;
+            }
+        }
+
+        .bg-gradient {
+            background: linear-gradient(to right, #0000FF, #008000, #008000);
+        }
+    </style>
+</head>
+
+<body style="margin: 0;"class="font-sans h-screen bg-primary">
+
+    <header class="container-fluid mx-0 my-0 fixed-top bg-white " style="margin: 0; padding: 0;">
+        <div class="container">
+            <div class="row">
+                <!-- Pepsodent Logo on the left -->
+                <div class="col-md-6">
+                    <div class="fotopepsodent pt-4">
+                        <img style="width: 150px;" class="" src="pepsodent.svg">
+                    </div>
+                </div>
+
+                <!-- Home, Biodata, etc., on the right -->
+                <div class="col-md-6">
+                    <div class="signup_hubungikami" style="">
+                        <div class="signup">
+                            <p style="text-align: center;" class="text-center">Sign Up</p>
+                        </div>
+                        <div class="HubungiKami">
+                            <p>Hubungi Kami</p>
+                            <img class="kacapembesar" style="width: 25px;height: 20px;" src="icons8-magnifying-glass-50.png">
+                        </div>
+                    </div>
+
+                    <div class="navbar sticky-top" style="margin-left: 40px; margin-right: 0; padding: 0;">
+                        <div class="navbarkanan" style="margin: 0; padding: 0; padding-top: 12px">
+                            <p class="home"><a href="pepsodent_bootstrap.html" target="_blank">Home</a></p>
+                            <p><a href="pepsodent_bootstrap_biodata.html" target="_blank">Biodata</a></p>
+                            <p><a href="pepsodent_bootstrap_contact.html" target="_blank">Contact us</a></p>
+                            <p><a href="pepsodent_bootstrap_free.html" target="_blank">Pepsodent Mid</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+  
+    <main class="font-sans h-screen bg-gradient bg-primary" style="font-family: sans-serif; height: 100vh; background: linear-gradient(to right, #0055FF, hsl(120, 100%, 50%), #005500); margin-bottom: 380px;margin-top: 37px;;" >
+        <div class="kartubiodata bg-cover" style="padding: 5px;margin-left: 420px;">
+            <main class="main2" style="margin-top: 40px;">
+                <div class="isian bg-white p-8 rounded-lg shadow-md max-w-md mx-auto" style="margin-left: 130px;">
+                    <div class="logounai d-flex items-center mb-6" style="margin-top: 0px; padding: 20px;gap: 10px;">
+                        <img src="png unai.png" class="w-8 h-8 mr-2" style="width: 40px;height: 40px;" alt="UNAI Logo">
+                        <h2 class="text-sm font-bold text-black pt-2" style="font-size: large;"><strong>Fill this form below</strong> </h2>
+                    </div>
+                    <div class="listlist " style="padding: 20px;">
+                        <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+                            <div class="mb-3">
+                                <label for="fname" class="form-label text-black">Name:</label>
+                                <input type="text" name="fname" id="fname" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label text-black">E-mail:</label>
+                                <input type="email" name="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="username" class="form-label text-black">Username:</label>
+                                <input type="text" name="username" id="username" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label text-black">Password:</label>
+                                <input type="password" name="password" id="password" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label d-block text-black">Gender:</label>
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" name="gender" value="male" class="form-check-input" required>
+                                    <label class="form-check-label text-black">Male</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input type="radio" name="gender" value="female" class="form-check-input" required>
+                                    <label class="form-check-label text-black">Female</label>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="religion" class="form-label text-black">Religion:</label>
+                                <select id="religion" name="religion" class="form-select" required>
+                                    <option value="default">Select</option>
+                                    <option value="islam">Islam</option>
+                                    <option value="christianity">Kristen</option>
+                                    <option value="katolik">Katolik</option>
+                                    <option value="hinduism">Hindu</option>
+                                    <option value="buddhism">Buddha</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="alamat" class="form-label text-black">Address:</label>
+                                <textarea name="alamat" id="alamat" class="form-control" required></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label d-block text-black">Hobbies:</label>
+                                <div class="form-check">
+                                    <input type="checkbox" name="musik" value="musik" class="form-check-input">
+                                    <label class="form-check-label text-black">Musik</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" name="sport" value="sport" class="form-check-input">
+                                    <label class="form-check-label text-black">Sport</label>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" name="reading" value="reading" class="form-check-input">
+                                    <label class="form-check-label text-black   ">Reading</label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-success" style="align-items: center;margin-left: 150px;">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </main>
+    
+
+
+    <footer class="footer1" style="padding-bottom: 12px; padding-top: ;">
+        <div class="logofoooter">
+            <img style="width: 150px;" src="pepsodentputih.svg">
+        </div>
+    
+        <div class="lokasi">
+            <h3
+                style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white;font-size: medium;">
+                Lokasi</h3>
+            <div class="indonesiadrop" <p class="pilihannegara"
+                style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white;font-size: medium;">
+                Indonesia </p>
+                <img style="height: 15px ; padding-left: 50px;" src="whitedropdown.png">
+            </div>
+        </div>
+    
+        <div class="tetapberhubungan">
+            <div class="h3berhubungan">
+                <h3 style="font-size: medium;">Tetap berhubungan</h3>
+            </div>
+    
+            <div class="logo">
+                <img style="height: 20px;" src="facebookcircle.png">
+                <img style="height: 20px;" src="youtubecircle1.png">
+                <img style="height: 20px;" src="instagramcircle.png">
+    
+            </div>
+        </div>
+        <div class="layanan" >
+            <h3 class="h3layanan " style="font-size: medium;">Layanan Konsumen</h3>
+    
+            <div class="penjelasanlayanan" style="font-size: small;">
+                <p style="padding-top: 20px;">Hubungi Kami</p>
+                <p style="padding-top: 8px;">Sign Up</p>
+                <p style="padding-top: 8px;">Tanya Jawab</p>
+                <p style="padding-top: 8px;">Peta situs</p>
+            </div>
+        </div>
+    
+        <div class="legal">
+            <h3 class="h3legal" style="font-size: medium;">Legal</h3>
+    
+            <div class="penjelasanlegal" style="font-size: small;">
+                <p style="padding-top: 20px">Pemberitahuan Cookie</p>
+                <p style="padding-top: 8px;">Pemberitahuan Privasi</p>
+                <p style="padding-top: 8px;">Syarat Penggunaan</p>
+                <p style="padding-top: 8px;">Aksesibilitas</p>
+            </div>
+    
+    
+        </div>
+    
+    
+        </div>
+    
+    </footer>
+    <footer
+        style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 12px;padding-bottom: ;"
+        class="footer2">
+        <div class="terakhir1 bg-white">
+            <p class="text-black" style="padding-top: 20px;padding-left: 30px;">© 2023 Unilever. All rights reserved.<br><br>
+    
+                Website ini diarahkan hanya ke konsumen,produk-produk, dan layanan-layanan Unilever Indonesia.<br>
+    
+                Website ini tidak diarahkan untuk konsumen di luar Indonesia. <br>
+            </p>
+    
+            <p><a href="https://fti.unai.edu" target="_blank">FTI UNAI</a></p><br>
+            <p><a href="https://unai.edu" target="_blank">UNAI Website</a></p>
+    
+            <img style="width: 110px; padding-top: 20px;padding-right: 30px;" src="unilever.svg">
+        </div>
+    
+    </footer>
+    
+    </html>
+    
+    </html>

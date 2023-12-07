@@ -1,0 +1,588 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.sticky{
+    position: fixed;
+    width: 100%;
+}
+​
+.sticky + .content {
+  padding-top: 60px;
+}
+.header{
+    position: fixed;
+    width: 100%;
+}
+.navbar{
+    
+    font-family: BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.1;
+    text-transform: none;
+    text-decoration: none;
+    cursor: pointer;
+   
+}
+.signup_hubungikami{
+    display: flex;
+    justify-content:flex-end;
+    gap: 5px;
+    padding-right: 50px;
+     
+}
+.signup{
+    font-family: BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    font-size: .6875rem;
+    display: flex;
+    padding: 3px 15px 1px;
+    border: 1px solid rgb(231, 30, 51);
+    border-radius: 25px;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(231, 30, 51);
+    cursor: pointer;
+}
+.signup:hover{
+    background-color: rgb(255, 139, 139);
+    border: 1px solid rgb(255, 139, 139);
+}
+.headerborder{
+    background-color: white;
+    border: 1px solid white;
+}
+
+.HubungiKami{
+    font-family: BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    background-color: #e9e9e9;
+    display: flex;
+    border-radius: 25px;
+    border: 1px solid;
+    color: #041679;
+    align-items: center;
+    font-size: .6875rem;
+    border: 1px solid #e9e9e9;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 3px 18px 1px ;
+}
+.kacapembesar{
+    padding-left: 10px;
+}
+.fotopepsodent{
+    margin: px;
+    float: left;
+    padding-left: 30px;
+}
+.navbarkanan{
+    
+    display: flex;
+    justify-content:flex-end;
+    margin: 20px;
+    gap: 50px;
+    padding-right: 30px;
+    font-family: BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    font-size: 15px;
+    line-height: 1.1;
+    font-weight: 500;
+    color: #041679;
+    
+  
+}
+
+.navbarkanan p a{
+    text-decoration: none;
+    color: #041679;
+    transition: 0.3s;
+}
+
+
+
+.navbarkanan a:hover{
+   
+    color: #e70033;
+}
+   
+.selamatdatang{
+    color: #e70033;
+    font-size: 35px;
+    font-family: BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    line-height: 2.625rem;
+    font-weight: bold;
+    padding-bottom: 0px;
+    padding-bottom: 60px;
+    font-weight: bold;
+}
+.tujuan{
+    color: #041679;
+    font-size: 32px;
+    font-family: BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    line-height: 2.625rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.penjelasantujuan{
+    font-family: BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    text-align: center;
+    font-size: larger;
+    padding-bottom: 70px;
+}
+.part3{
+    border: 1px solid #e9e9e9;
+    background-color: #f7f7f7;
+    
+}
+.program{
+    padding-top: 120px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #041679;
+    font-family:  BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif ;
+    
+}
+.borderprogram{
+    display: flex;
+    margin: 30px;
+    border: 1px solid #e9e9e9;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);   
+    
+    
+}
+.scroll{
+    display:block;
+    border: 1px solid rgb(255, 255, 255);
+    width:400px;
+    height:300px;
+    overflow:auto;
+    margin: 40px 50px;   
+    
+}
+.perawatan{
+    text-align: left;
+    color: #041679;
+    font-family:  BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif ; 
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.penjelasanperawatan{
+    font-family: BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    text-align: left;
+    font-size: ;
+    padding-bottom: 30px;
+    padding-right: 25px;
+    
+}
+.caritahu{
+    border: 1px solid #e70033;
+    background-color: #e70033;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 25px;
+    width: 22%;
+    font-family: BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    text-align: center;
+}
+.penjelasansamping{
+    height:188px;
+}
+
+.dot,.dot1 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    
+  }
+  .dot:hover {
+    background-color: #041679;
+  }
+  .dot1{
+    background-color: #e70033;
+  }
+  .slides{
+    display: flex;
+    visibility: hidden;
+  }
+  .button{
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+  }
+  .misi{
+    padding-top: 120px;
+    padding-bottom: 60px;
+    text-align: center;
+    color: #041679;
+    font-family:  BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif ;
+    font-size: 30px;
+    
+  }
+  .foto1{
+    width: 130px;
+  }
+  
+  .foto2{
+    width: 130px;
+  }
+  .foto3{
+    width: 130px;
+  }
+  .foto-foto{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    
+  }
+  .a,.b,.c{
+    font-family: BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    color: #717171;
+    background-color: rgb(255, 255, 255);
+    
+    
+  }
+  .abc{
+    
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+  }
+  .a{
+    padding-left: 180px;
+    padding-right: 147px;
+    color: #e70033;
+    
+  }
+  .b{
+    padding-right:190px ;
+  }
+  .droparrow{
+    padding-left:275px ;
+    padding-top: 10px;
+  }
+
+  .borderprogram2{
+    display: flex;
+    margin: 40px 120px;
+    border: 1px solid #e9e9e9;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);   
+    
+    
+}
+.penjelasansamping2{
+    height:188px;
+    
+}
+.scroll2{
+    display:block;
+    border: 1px solid rgba(255, 255, 255, 0);
+    width:400px;
+    height:300px;
+    overflow:auto;
+    margin: 40px 50px;   
+    
+}
+.perawatan2{
+    text-align: left;
+    color: #041679;
+    font-family:  BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif ; 
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.penjelasanperawatan2{
+    font-family: BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    text-align: left;
+    font-size: ;
+    padding-bottom: 30px;
+    padding-right: 25px;
+    
+}
+.caritahu2{
+    border: 1px solid #e70033;
+    background-color: #e70033;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    width: 45%;
+    font-family: BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    text-align: center;
+}
+.penjelasannn{
+    padding:0%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-right: 30px ;
+}
+.produkdanfoto{
+    margin-top: 50px;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    border: 1px solid white;
+    background-color: #e9e9e9;
+}
+
+.fotoodol{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    padding-left: 20px ;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);  
+    
+}
+
+
+
+.fotoodol2{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #ffffff;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);  
+}
+.fotoodol3{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #ffffff;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);  
+}
+
+.odolbiru{
+    overflow: hidden;
+}
+.odolbiru img{
+    width: 100%;
+    transition: 0.6s;
+    
+}
+.odolbiru img:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+    
+    
+}
+.odolmerah{
+    overflow: hidden;
+   
+}
+.odolmerah img{
+    width: 100%;
+    transition: 0.6s;
+}
+.odolmerah img:hover{
+    transform: scale(1.1) ;
+    transition: 0.6s ;
+}
+
+.odolcoklat{
+    overflow: hidden;
+
+}
+.odolcoklat img{
+    width: 100%;
+    transition: 0.6s;
+}
+.odolcoklat img:hover{
+    transform: scale(1.1);
+    transition: 0.6s ;
+}
+
+.odolodolodol{
+  display: flex; 
+  justify-content: center;
+    gap: 20px;
+    padding-bottom: 40px;
+  
+}
+.part5{
+    padding-bottom: 0px;
+}
+.img6{
+
+
+    position: absolute;
+    z-index: -1;
+ 
+    
+
+    
+}
+.border6{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    margin-left: 100px;
+    margin-right: 600px;
+    margin-top: 110px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35); 
+
+}
+.selengkapnya{
+    border: 1px solid #07837b;
+    background-color: #07837b;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    width: 150px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.part7{
+    margin-top: 520px;
+    padding-top: 100px;
+}
+.fotogigi1{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    padding-left: 20px ;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);  
+    
+     
+}
+.fotogigi2{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #ffffff;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);  
+}
+.fotogigi3{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #ffffff;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);  
+}
+.gigi1{
+    overflow: hidden;
+   
+    border-radius: 15px;
+}
+.gigi1 img{
+    width: 100%;
+    transition: 0.6s;
+}
+.gigi1 img:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.tigagigi{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    
+
+}
+.gigi2{
+    overflow: hidden;
+    
+    border-radius: 15px;
+}
+.gigi2 img{
+    width: 100%;
+    transition: 0.6s;
+}
+.gigi2 img:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.gigi3{
+    overflow: hidden;
+    
+    border-radius: 15px;
+}
+.gigi3 img{
+    width: 100%;
+    transition: 0.6s;
+}
+.gigi3 img:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.part7{
+    background-color: #ffffff;
+}
+.terakhir{
+    border: 1px solid #e70033;
+    background-color:#e70033;
+    border-radius: 25px;
+}
+.footer1{
+    background-color: #041679;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.indonesiadrop{
+    display: flex;
+    padding: 0px;
+}
+.pilihannegara{
+    border: 1px solid red;
+
+}
+.logo{
+    display: flex;
+    padding-top: 20px;
+    gap: 15px;
+}
+.footer2{
+    border-top: 5px solid #e70033;
+}
+.terakhir1{
+  display: flex;  
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.konsultasigratis{
+
+}
+
+

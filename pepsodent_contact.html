@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tanyapepsodent.com</title>
+    <link rel="stylesheet" href="pepsodent_contact_style.css">
+
+    <script>
+        function validateForm() {
+          let fullname = document.forms["myForm"]["fname"].value;
+          let email = document.forms["myForm"]["email"].value;
+          let username = document.forms["myForm"]["username"].value;
+          let password = document.forms["myForm"]["password"].value;
+          let gender = document.forms["myForm"]["gender"].value;
+          
+
+
+          if (fullname === "") {
+            alert("Name must be filled out");
+            return false;
+          }
+          if(email ===""){
+            alert("Email must be filled out");
+            return false;
+          }
+          if(username ===""){
+            alert("Username must be filled out");
+            return false;
+          }
+          if(password ===""){
+            alert("Password must be filled out");
+            return false;
+          }
+          if(gender===""){
+            alert("Gender must be selected");
+            return false;
+          }
+        }
+    </script>
+    
+</head>
+<body style="background-image: url('1.jpg');">
+    
+    <header class="header">
+        
+        <div class="headerborder">
+
+            <div class="signup_hubungikami">
+                <div class="signup">
+                    <p >Sign Up</p>
+                </div>
+                <div class="HubungiKami">
+                    <p>Hubungi Kami</p>
+                    <img class="kacapembesar" style="width: 15px;" src="icons8-magnifying-glass-50.png">
+                </div>
+            </div>  
+
+            <div class="fotopepsodent">
+                <img style="width: 150px; " src="pepsodent.svg">
+            </div>
+            
+            <div class="navbar">
+                <div class="navbarkanan">
+                    <p class="home"><a href="pepsodent.html" target="_blank">Home</a></p>
+                    <p><a href="pepsodent_about.html" target="_blank">Biodata</a></p>
+                    <p><a href="pepsodent_contact.html" target="_blank">Contact us</a></p>
+                    <p><a href="pepsodent_bebas.html" target="_blank">Pepsodent Mid</a></p>
+                </div>
+            </div>
+
+            <div class="konsultasigratis">
+                <img class="samping" style="position: fixed; width: 50px;float: right;margin-top: 390px; border: 1px solid #041679;background-color: #041679; border-top-left-radius: 20px ;border-bottom-left-radius: 20px; padding-left: 10px; padding-top: 10px; padding-bottom: 10px;padding-right: 10px; margin-left: 95%" src="chitchat1.png">  
+            </div>
+
+        </div>
+
+        <main>
+            <div style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" class="kartubiodata">
+                <main class="main2">
+                    <div class="isian">
+                        <div class="logounai">
+                            <img src="png unai.png" style="width: 30px; height: 30px;">
+                            <h2 style="padding-bottom: 10px;">Fill this form below</h2>
+                        </div>
+                        <div class="listlist">
+                            <div class="listempat"></div>
+                            <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+                                Name: <input type="text" name="fname">
+                                E-mail : <input type="email" name="email">
+                                Username : <input type="text" name="username">
+                                Password : <input type="password" name="password">
+                                Gender : 
+                                <input type="radio" name="gender" value="male">Male
+                                <input type="radio" name="gender" value="female">Female
+                                <br>
+                                Religion :
+                                <div class="input-container">
+                                    <div class="agama">
+                                        <label style="" for="religion"></label>
+                                        <select style=" " id="religion" name="religion" >
+                                            <option value="default">Select</option>
+                                            <option value="islam">Islam</option>
+                                            <option value="christianity">Kristen</option>
+                                            <option value="katolik">Katolik</option>
+                                            <option value="hinduism">Hindu</option>
+                                            <option value="buddhism">Buddha</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                Address: <textarea name="alamat"></textarea>
+                                <div class="hobbies">
+                                    Hobbies:
+                                    Musik<input type="checkbox" name="musik" value="musik">
+                                    Sport<input type="checkbox" name="sport" value="sport">
+                                    Reading<input type="checkbox" name="reading" value="reading">
+                                </div>
+                                <input style="margin-top: 20px;padding: 5px 15px; border-radius: 10px;background-color: greenyellow;" type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </main>
+    </header>
+    
+</body>
+<footer class="footer1">
+    <div class="logofoooter">
+        <img style="width: 150px;" src="pepsodentputih.svg">
+    </div>
+    
+    <div  class="lokasi">
+    <h3 style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white;">Lokasi</h3>
+    <div class="indonesiadrop"
+    <p class="pilihannegara" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white;">Indonesia </p>
+    <img style="height: 15px ; padding-left: 50px;" src="whitedropdown.png">
+    </div>
+    </div>
+    
+    <div class="tetapberhubungan">
+    <div class="h3berhubungan">
+    <h3 >Tetap berhubungan</h3>
+    </div>
+    
+    <div  class="logo">
+    <img style="height: 20px;"  src="facebookcircle.png">
+    <img style="height: 20px;" src="youtubecircle1.png">
+    <img style="height: 20px;" src="instagramcircle.png">
+    
+    </div>
+    </div>  
+    <div class="layanan">
+        <h3 class="h3layanan">Layanan Konsumen</h3>
+    
+        <div class="penjelasanlayanan">
+        <p style="padding-top: 20px;">Hubungi Kami</p>
+        <p style="padding-top: 8px;">Sign Up</p>
+        <p style="padding-top: 8px;">Tanya Jawab</p>
+        <p style="padding-top: 8px;">Peta situs</p>
+        </div>
+    </div>
+    
+    <div class="legal">
+        <h3 class="h3legal">Legal</h3>
+    
+        <div class="penjelasanlegal">
+            <p style="padding-top: 20px">Pemberitahuan Cookie</p>
+            <p style="padding-top: 8px;" >Pemberitahuan Privasi</p>
+            <p style="padding-top: 8px;">Syarat Penggunaan</p>
+            <p style="padding-top: 8px;">Aksesibilitas</p>
+        </div>
+    
+    
+    </div>
+    
+    
+    </div>
+    
+    </footer>
+    <footer style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 12px;" class="footer2">
+    <div style="background-color: white;" class="terakhir1">
+        <p style="padding-top: 20px;padding-left: 30px;">© 2023 Unilever. All rights reserved.<br><br>
+    
+            Website ini diarahkan hanya ke konsumen,produk-produk, dan layanan-layanan Unilever Indonesia.<br>
+            
+            Website ini tidak diarahkan untuk konsumen di luar Indonesia. <br>
+        </p>
+    
+        <p><a href="https://fti.unai.edu" target="_blank">FTI UNAI</a></p><br>
+        <p><a href="https://unai.edu" target="_blank">UNAI Website</a></p>
+    
+        <img style="width: 70px; padding-top: 20px;padding-right: 30px;" src="unilever.svg">
+    </div>
+    
+    </footer>
+    
+    </html>
+
+
+</html>

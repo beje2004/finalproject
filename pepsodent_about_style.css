@@ -1,0 +1,174 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+   
+    width: 99%;
+}
+.headerborder{
+    background-color: white;
+    border: 1px solid white;
+    position: fixed;
+    width: 100%;
+   
+}
+.signup_hubungikami{
+    display: flex;
+    justify-content:flex-end;
+    gap: 5px;
+    padding-right: 50px;
+   
+    
+}
+.fotopepsodent{
+    margin: px;
+    float: left;
+    padding-left: 30px;
+}
+.signup{
+    font-family: BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    font-size: .6875rem;
+    display: flex;
+    padding: 3px 15px 1px;
+    border: 1px solid rgb(231, 30, 51);
+    border-radius: 25px;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(231, 30, 51);
+    cursor: pointer;
+   
+}
+.signup:hover{
+    background-color: rgb(255, 139, 139);
+    border: 1px solid rgb(255, 139, 139);
+}
+.headerborder{
+    background-color: white;
+    border: 1px solid white;
+}
+
+.HubungiKami{
+    font-family: BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    background-color: #e9e9e9;
+    display: flex;
+    border-radius: 25px;
+    border: 1px solid;
+    color: #041679;
+    align-items: center;
+    font-size: .6875rem;
+    border: 1px solid #e9e9e9;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 3px 18px 1px ;
+}
+.kacapembesar{
+    padding-left: 10px;
+}
+.fotopepsodent{
+    margin: px;
+    float: left;
+    padding-left: 30px;
+  
+}
+.navbarkanan{
+    
+    display: flex;
+    justify-content:flex-end;
+    margin: 20px;
+    gap: 50px;
+    padding-right: 30px;
+    font-family: BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    font-size: 15px;
+    line-height: 1.1;
+    font-weight: 500;
+    color: #041679;
+   
+  
+}
+.navbarkanan p a{
+    text-decoration: none;
+    color: #041679;
+    transition: 0.3s;
+}
+
+
+
+
+.navbarkanan a:hover{
+   
+    color: #e70033;
+}
+.selamatdatang{
+    color: #ffffff;
+    font-size: 35px;
+    font-family: BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    line-height: 2.625rem;
+    font-weight: bold;
+    padding-bottom: 0px;
+    padding-bottom: 60px;
+    font-weight: bold;
+}
+.navbar{
+    
+    font-family: BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.1;
+    text-transform: none;
+    text-decoration: none;
+    cursor: pointer;
+   
+}
+.terakhir{
+    border: 1px solid #e70033;
+    background-color:#e70033;
+    border-radius: 25px;
+}
+.footer1{
+    background-color: #041679;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.indonesiadrop{
+    display: flex;
+    padding: 0px;
+}
+.pilihannegara{
+    border: 1px solid red;
+
+}
+.logo{
+    display: flex;
+    padding-top: 20px;
+    gap: 15px;
+}
+.footer2{
+    border-top: 5px solid #e70033;
+}
+.terakhir1{
+  display: flex;  
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.konsultasigratis{
+
+}
+.kartubiodata{
+    text-align: center;
+    padding: 40px;
+    border: 4px solid goldenrod;
+    background-color: rgba(255, 255, 255, 0.995);
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.35);  
+    margin: 0px 400px 70px 400px;
+
+}
