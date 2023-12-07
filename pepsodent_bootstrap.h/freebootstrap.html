@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tanyapepsodent.com</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="pepsodent_style.css">
+    <style>
+        /* Add custom styles for the sticky navbar */
+        .sticky-top {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        body {
+            background: linear-gradient(to right, #fuchsia, #800080, #0000ff);
+            color: white;
+        }
+
+        .kartubiodata {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+        @media (min-width: 640px) {
+            .kartubiodata {
+                max-width: 28rem;
+            }
+        }
+
+        .bg-gradient {
+            background: linear-gradient(to right, #0000FF, #008000, #008000);
+        }
+          /* ... styles ... */
+    #verse1, #verse2 {
+        display: none;
+    }
+    </style>
+</head>
+
+<body style="margin: 0;margin-left: ;background-color: rgba(49, 53, 70, 0.751);"class="font-sans h-screen">
+
+    <header class="container-fluid mx-0 my-0 fixed-top bg-white " style="margin: 0; padding: 0;">
+        <div class="container">
+            <div class="row">
+                <!-- Pepsodent Logo on the left -->
+                <div class="col-md-6">
+                    <div class="fotopepsodent pt-4">
+                        <img style="width: 150px;" class="" src="pepsodent.svg">
+                    </div>
+                </div>
+
+                <!-- Home, Biodata, etc., on the right -->
+                <div class="col-md-6">
+                    <div class="signup_hubungikami" style="">
+                        <div class="signup">
+                            <p style="text-align: center;" class="text-center">Sign Up</p>
+                        </div>
+                        <div class="HubungiKami">
+                            <p>Hubungi Kami</p>
+                            <img class="kacapembesar" style="width: 25px;height: 20px;" src="icons8-magnifying-glass-50.png">
+                        </div>
+                    </div>
+
+                    <div class="navbar sticky-top" style="margin-left: 40px; margin-right: 0; padding: 0;">
+                        <div class="navbarkanan" style="margin: 0; padding: 0; padding-top: 12px">
+                            <p class="home"><a href="index.html" target="_blank">Home</a></p>
+                            <p><a href="biodata.html" target="_blank">Biodata</a></p>
+                            <p><a href="contact_us.html" target="_blank">Contact us</a></p>
+                            <p><a href="freebootstrap.html">Pepsodent Mid</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+  
+    <main class="p-8 pt-12" style="padding-top: 90px;padding-bottom: 100px;">
+
+        <div class="d-flex justify-center mt-8" style="gap: 12px;margin-left: 514px;" style="margin-top: 50px;">
+            <button onclick="showVerse1()" style="background-color: rgb(0, 119, 255); border: 1px solid rgb(0, 119, 255);" class="bg-blue-500 text-white px-4 py-2 mr-4 text-black ">Verse 1</button>
+            <button onclick="showVerse2()" style="background-color:  rgb(0, 119, 255) ; border: 1px solid rgb(0, 119, 255);" class="bg-blue-500 text-white px-4 py-2 text-black">Verse 2</button>
+        </div>
+    
+        <div id="verse1" class="hidden mt-8 text-center">
+            <h2 class="text-2xl font-semibold mb-4 text-black" style="margin-top: 40px;">Verse 1</h2>
+            <p class="text-lg bg-blue-100 rounded-xl pl-0 pr-0 pt-2 pb-2" style="margin-left: 460px;margin-right: 450px; border-radius: 12px; background-color: rgb(244, 244, 244);color: black;">
+                Tuhan pimpin s'panjang jalan<br>
+                Amat senanglah hatiku<br>
+                Dan hilanglah ketakutan<br>
+                Kar'na Tuhan pimpin aku<br>
+                Tuhan pimpin, Tuhan pimpin<br>
+                Tangan Tuhan pimpin aku<br>
+                Dengan setia kuturut Dia<br>
+                Kar'na Tuhan pimpin aku<br>
+            </p>
+        </div>
+    
+        <div id="verse2" class="hidden mt-8 text-center">
+            <h2 class="text-2xl font-semibold mb-4 text-black" style="margin-top: 40px;">Verse 2</h2>
+            <p class="text-lg bg-blue-100 rounded-xl pl-0 pr-0 pt-2 pb-2" style="margin-left: 450px;margin-right: 450px; border-radius: 12px; background-color: rgb(244, 244, 244);color: black;">
+                Pada waktu kesusahan<br>
+                Atau waktu sukacita<br>
+                Aku tetap rasa aman<br>
+                Kar'na Tuhan yang menjaga.<br>
+                Tuhan pimpin, Tuhan pimpin<br>
+                Tangan Tuhan pimpin aku<br>
+                Dengan setia kuturut Dia<br>
+                Kar'na Tuhan pimpin aku<br>
+            </p>
+        </div>
+        
+    
+    </main>
+    
+    <script>
+        function showVerse1() {
+            document.getElementById('verse1').style.display = 'block';
+            document.getElementById('verse2').style.display = 'none';
+        }
+    
+        function showVerse2() {
+            document.getElementById('verse1').style.display = 'none';
+            document.getElementById('verse2').style.display = 'block';
+        }
+    </script>
+    
+    
+    
+
+    
+
+
+    <footer class="footer1" style="padding-bottom: 12px; padding-top: ;">
+        <div class="logofoooter">
+            <img style="width: 150px;" src="pepsodentputih.svg">
+        </div>
+    
+        <div class="lokasi">
+            <h3
+                style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white;font-size: medium;">
+                Lokasi</h3>
+            <div class="indonesiadrop" <p class="pilihannegara"
+                style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; color: white;font-size: medium;">
+                Indonesia </p>
+                <img style="height: 15px ; padding-left: 50px;" src="whitedropdown.png">
+            </div>
+        </div>
+    
+        <div class="tetapberhubungan">
+            <div class="h3berhubungan">
+                <h3 style="font-size: medium;">Tetap berhubungan</h3>
+            </div>
+    
+            <div class="logo">
+                <img style="height: 20px;" src="facebookcircle.png">
+                <img style="height: 20px;" src="youtubecircle1.png">
+                <img style="height: 20px;" src="instagramcircle.png">
+    
+            </div>
+        </div>
+        <div class="layanan" >
+            <h3 class="h3layanan " style="font-size: medium;">Layanan Konsumen</h3>
+    
+            <div class="penjelasanlayanan" style="font-size: small;">
+                <p style="padding-top: 20px;">Hubungi Kami</p>
+                <p style="padding-top: 8px;">Sign Up</p>
+                <p style="padding-top: 8px;">Tanya Jawab</p>
+                <p style="padding-top: 8px;">Peta situs</p>
+            </div>
+        </div>
+    
+        <div class="legal">
+            <h3 class="h3legal" style="font-size: medium;">Legal</h3>
+    
+            <div class="penjelasanlegal" style="font-size: small;">
+                <p style="padding-top: 20px">Pemberitahuan Cookie</p>
+                <p style="padding-top: 8px;">Pemberitahuan Privasi</p>
+                <p style="padding-top: 8px;">Syarat Penggunaan</p>
+                <p style="padding-top: 8px;">Aksesibilitas</p>
+            </div>
+    
+    
+        </div>
+    
+    
+        </div>
+    
+    </footer>
+    <footer
+        style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 12px;padding-bottom: ;"
+        class="footer2">
+        <div class="terakhir1 bg-white">
+            <p class="text-black" style="padding-top: 20px;padding-left: 30px;">© 2023 Unilever. All rights reserved.<br><br>
+    
+                Website ini diarahkan hanya ke konsumen,produk-produk, dan layanan-layanan Unilever Indonesia.<br>
+    
+                Website ini tidak diarahkan untuk konsumen di luar Indonesia. <br>
+            </p>
+    
+            <p><a href="https://fti.unai.edu" target="_blank">FTI UNAI</a></p><br>
+            <p><a href="https://unai.edu" target="_blank">UNAI Website</a></p>
+    
+            <img style="width: 110px; padding-top: 20px;padding-right: 30px;" src="unilever.svg">
+        </div>
+    
+    </footer>
+    
+    </html>
+    
+    </html>

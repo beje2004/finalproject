@@ -5,19 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tanyapepsodent.com</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
 </head>
 
-<body class="font-sans h-screen bg-gray-600">
+<body class="font-sans bg-gradient-to-r from-blue-500 via-blue-700 to-blue-900">
 
     <header class="header fixed w-full bg-white shadow-lg pr-4 sm:pr-12 pl-4 sm:pl-12 z-50">
         <div class="signup_hubungikami flex justify-end ">
-            <div class="signup bg-danger rounded-xl text-white text-center">
+            <div class="signup bg-red-600 rounded-xl text-white text-center">
                 <p style="font-size: 12px;" class="text-xs sm:text-3xs items-center pt-1 pb-0 pr-2 sm:pr-4 pl-2 sm:pl-4">Sign Up</p>
             </div>
-            <div class="HubungiKami flex bg-light rounded-tr-xl rounded-br-xl gap-2 pr-2 sm:pr-4 pl-2 sm:pl-4 pt-1 pb-0">
+            <div class="HubungiKami flex bg-gray-200 rounded-tr-xl rounded-br-xl gap-2 pr-2 sm:pr-4 pl-2 sm:pl-4 pt-1 pb-0">
                 <p style="font-size: 12px;" class="text-xs sm:text-sm">Hubungi Kami</p>
-                <img class="kacapembesar w-3 sm:w-4 h-4 sm:h-5" src="icons8-magnifying-glass-50.png">
+                <img class="kacapembesar w-3 sm:w-4 h-4 sm:h-5"  src="icons8-magnifying-glass-50.png">
             </div>
         </div>
 
@@ -26,71 +26,47 @@
                 <img class="w-24 sm:w-40" src="pepsodent.svg">
             </div>
             <div class="navbar">
-                <div class="navbarkanan flex gap-4 sm:gap-12 text-primary font-semibold text-xs sm:text-base">
-                    <p class="home"><a href="pepsodent_tailwind.html" target="_blank">Home</a></p>
-                    <p><a href="pepsodent_biodata_tailwind.html" target="_blank">Biodata</a></p>
-                    <p><a href="pepsodent_contact_tailwind.html" target="_blank">Contact us</a></p>
-                    <p><a href="pepsodent_bebas._tailwind.html" target="_blank">Pepsodent Mid</a></p>
+                <div class="navbarkanan flex gap-4 sm:gap-12 text-blue-900 font-semibold text-xs sm:text-base">
+                    <p class="home"><a href="index.html" target="_blank">Home</a></p>
+                    <p><a href="biodatatailwind.html" target="_blank">Biodata</a></p>
+                    <p><a href="contact_ustailwind.html" target="_blank">Contact us</a></p>
+                    <p><a href="pepsodent_free_tailwind.html" target="_blank">Pepsodent Mid</a></p>
                 </div>
             </div>
         </div>
 
         <div class="konsultasigratis">
-            <img class="samping fixed w-8 sm:w-12 h-8 sm:h-12 right-2 sm:right-4 top-36 sm:top-44 border-2 border-solid border-primary bg-primary rounded-tl-2xl rounded-bl-2xl p-1 sm:p-2"
+            <img class="samping fixed w-8 sm:w-12 h-8 sm:h-12 right-2 sm:right-4 top-36 sm:top-44 border-2 border-solid border-blue-900 bg-blue-900 rounded-tl-2xl rounded-bl-2xl p-1 sm:p-2"
                 src="chitchat1.png">
         </div>
     </header>
 
-    <main class="p-8 pt-12" style="padding-top: 90px; padding-bottom: 100px;">
-
-        <div class="flex justify-center mt-8">
-            <button onclick="showVerse1()" class="btn btn-primary mr-4">Verse 1</button>
-            <button onclick="showVerse2()" class="btn btn-primary">Verse 2</button>
+    <main class="text-white bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 p-4 sm:p-8">
+        <h1 class="text-2xl sm:text-4xl font-bold text-center py-4 sm:py-8">Personal Biodata</h1>
+        <div class="kartubiodata bg-white bg-opacity-30 rounded-lg shadow-md p-4 sm:p-8 max-w-md mx-auto">
+            <div class="flex items-center justify-center mb-4 sm:mb-6">
+                <img class="w-16 sm:w-24 h-16 sm:h-24 rounded-full" style="height: 100px; width: 100px;" src="bryant.jpeg" alt="Profile Picture">
+            </div>
+            <div class="text-md sm:text-lg font-semibold text-center mb-2 sm:mb-6 text-black">
+                <h4 class="text-lg sm:text-xl">Nama:</h4>
+                <p>Rafael Bryant Jordan P</p>
+            </div>
+            <div class="text-md sm:text-lg font-semibold mb-2 sm:mb-4">Informasi Personal:</div>
+            <ul class="list-disc pl-4 sm:pl-6 mb-2 sm:mb-4 text-black">
+                <li><strong>Agama:</strong> Advent</li>
+                <li><strong>Usia:</strong> 19 tahun</li>
+                <li><strong>Tanggal Lahir:</strong> 2 Juni 2004</li>
+                <li><strong>Tempat Lahir:</strong> Jakarta</li>
+                <li><strong>Jenis Kelamin:</strong> Pria</li>
+            </ul>
+            <div class="text-sm sm:text-md text-gray-500 text-center">
+                <p>@bryntjordan</p>
+            </div>
         </div>
-
-        <div id="verse1" class="hidden mt-8 text-center">
-            <h2 class="text-2xl font-semibold mb-4">Verse 1</h2>
-            <p class="text-lg bg-primary text-white rounded-xl pl-4 pr-4 pt-5 pb-5" style="margin-left: 50px; margin-right: 50px;">
-                Tuhan pimpin s'panjang jalan<br>
-                Amat senanglah hatiku<br>
-                Dan hilanglah ketakutan<br>
-                Kar'na Tuhan pimpin aku<br>
-                Tuhan pimpin, Tuhan pimpin<br>
-                Tangan Tuhan pimpin aku<br>
-                Dengan setia kuturut Dia<br>
-                Kar'na Tuhan pimpin aku<br>
-            </p>
-        </div>
-
-        <div id="verse2" class="hidden mt-8 text-center">
-            <h2 class="text-2xl font-semibold mb-4">Verse 2</h2>
-            <p class="text-lg bg-primary text-white rounded-xl pl-4 pr-4 pt-5 pb-5" style="margin-left: 50px; margin-right: 50px;">
-                Pada waktu kesusahan<br>
-                Atau waktu sukacita<br>
-                Aku tetap rasa aman<br>
-                Kar'na Tuhan yang menjaga.<br>
-                Tuhan pimpin, Tuhan pimpin<br>
-                Tangan Tuhan pimpin aku<br>
-                Dengan setia kuturut Dia<br>
-                Kar'na Tuhan pimpin aku<br>
-            </p>
-        </div>
-
     </main>
 
-    <script>
-        function showVerse1() {
-            document.getElementById('verse1').style.display = 'block';
-            document.getElementById('verse2').style.display = 'none';
-        }
-
-        function showVerse2() {
-            document.getElementById('verse1').style.display = 'none';
-            document.getElementById('verse2').style.display = 'block';
-        }
-    </script>
-
-    <footer class="footer1 flex flex-wrap justify-between p-4 sm:p-6 bg-indigo-900 text-white" style="background-color: #041679;">
+    <footer class="footer1 flex flex-wrap justify-between p-4 sm:p-6 bg-indigo-900 text-white" style="background-color:  #041679;">
+       
         <div class="logofoooter mb-4 sm:mb-0">
             <img class="w-24 sm:w-36" src="pepsodentputih.svg">
         </div>
@@ -130,6 +106,9 @@
             </div>
         </div>
     </footer>
+    <div class="border-2 border-solid border-red-600 bg-red-600  p-0">
+        <!-- Your content here -->
+      </div>
 
     <footer class="bg-white footer2 text-xs sm:text-sm text-gray-500 p-4 sm:p-6">
         <div class="terakhir1 flex flex-col sm:flex-row justify-between items-center">
@@ -138,8 +117,8 @@
                 Website ini tidak diarahkan untuk konsumen di luar Indonesia. <br>
             </p>
             <div class="flex gap-4" style="padding-bottom: 70px;">
-                <p><a class="text-primary" href="https://fti.unai.edu" target="_blank">FTI UNAI</a></p>
-                <p><a class="text-primary" href="https://unai.edu" target="_blank">UNAI Website</a></p>
+                <p><a class="text-blue-500" href="https://fti.unai.edu" target="_blank">FTI UNAI</a></p>
+                <p><a class="text-blue-500" href="https://unai.edu" target="_blank">UNAI Website</a></p>
             </div>
             <img class="w-12 sm:w-14 ml-auto" style="width: 80px;" src="unilever.svg">
         </div>
